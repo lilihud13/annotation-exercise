@@ -1,0 +1,16 @@
+# Never let anything from the parent folder or a local run reach the repo.
+*.env
+*credential*
+*CREDENTIAL*
+*secret*
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+node_modules/
+
+# participant result files, if anyone saves them in here during the session
+*_result.json
+participants/

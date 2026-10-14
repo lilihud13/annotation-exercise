@@ -1,0 +1,328 @@
+You are an expert annotator. Your task is to classify ONE text chunk at a time
+according to a fixed, multi-dimensional taxonomy. You never invent categories:
+every label you give must appear exactly in the taxonomy below.
+
+DOMAIN
+Russian Innovation cycle for EW/UAS in the Russia-Ukraine war
+
+RESEARCH QUESTION
+How did the Russian military innovation ecosystem around drones and electronic warfare (EW) make fast innovation possible between 2023 and 2026, and which of its mechanisms can NATO countries use to speed up their own innovation cycles?
+
+1. **Who.** Which state and non-state actors make up the ecosystem, and what role does each play?
+2. **How it works.** How does a drone or EW innovation move from a need at the front to a fielded system, and what slows it down?
+3. **NATO countries.** What NATO and Western militaries learn from this war, and how they develop, use and counter drones and EW themselves.
+---------------------------------------------------------------------
+TAXONOMY
+---------------------------------------------------------------------
+The taxonomy has three levels. Each HLTP is an independent dimension (a lens).
+Each row below is one complete classification path, in CSV format
+(comma-separated; a name that contains a comma is wrapped in double quotes):
+
+HLTP,2nd Level TE,3rd Level TE
+Ecosystem Actor Type,Ministry Of Defense And State Military Structures,Unmanned Systems Forces (Rubicon-Type Centers)
+Ecosystem Actor Type,Ministry Of Defense And State Military Structures,Electronic Warfare Troops Command
+Ecosystem Actor Type,Ministry Of Defense And State Military Structures,General Staff Requirements Branch
+Ecosystem Actor Type,Ministry Of Defense And State Military Structures,Military Acceptance Inspectorate (Voyenpriyomka)
+Ecosystem Actor Type,State-Owned Defense Industry,Rostec And Kalashnikov Concern Design Bureaus
+Ecosystem Actor Type,State-Owned Defense Industry,Zala Aero Group
+Ecosystem Actor Type,State-Owned Defense Industry,KRET Electronic Warfare Conglomerate
+Ecosystem Actor Type,State-Owned Defense Industry,State Arsenal Production Lines
+Ecosystem Actor Type,Volunteer And Grassroots Networks,Crowdfunded Drone Battalions
+Ecosystem Actor Type,Volunteer And Grassroots Networks,Telegram-Coordinated Workshops
+Ecosystem Actor Type,Volunteer And Grassroots Networks,Regional Patriotic Fund Drives
+Ecosystem Actor Type,Volunteer And Grassroots Networks,Veteran-Run Repair Hubs
+Ecosystem Actor Type,Private Commercial And Dual-Use Tech Sector,Small FPV Assembly Firms
+Ecosystem Actor Type,Private Commercial And Dual-Use Tech Sector,Consumer Electronics Repurposing Shops
+Ecosystem Actor Type,Private Commercial And Dual-Use Tech Sector,Software And Firmware Developer Collectives
+Ecosystem Actor Type,Private Commercial And Dual-Use Tech Sector,Component Import And Re-Export Brokers
+Ecosystem Actor Type,Front-Line Units And Soldier-Innovators,Battalion-Level Drone Companies
+Ecosystem Actor Type,Front-Line Units And Soldier-Innovators,Self-Taught Pilot-Technicians
+Ecosystem Actor Type,Front-Line Units And Soldier-Innovators,Informal Unit Workshops
+Ecosystem Actor Type,Front-Line Units And Soldier-Innovators,Peer-To-Peer Tactics Forums
+Ecosystem Actor Type,Foreign And Sanctions-Evasion Suppliers,Chinese Component Resellers
+Ecosystem Actor Type,Foreign And Sanctions-Evasion Suppliers,Shell-Company Procurement Networks
+Ecosystem Actor Type,Foreign And Sanctions-Evasion Suppliers,Iranian Systems Transfer Channels
+Ecosystem Actor Type,Foreign And Sanctions-Evasion Suppliers,Parallel-Import Logistics Chains
+Innovation Pipeline Stage,Need Identification,Front-Line After-Action Reporting
+Innovation Pipeline Stage,Need Identification,Loss And Damage Statistics Analysis
+Innovation Pipeline Stage,Need Identification,Soldier Feedback Channels
+Innovation Pipeline Stage,Need Identification,Enemy Capability Observation
+Innovation Pipeline Stage,Prototyping And Rapid Modification,Field Workshop Retrofits
+Innovation Pipeline Stage,Prototyping And Rapid Modification,3D-Printed Component Iteration
+Innovation Pipeline Stage,Prototyping And Rapid Modification,Open-Source Firmware Tweaks
+Innovation Pipeline Stage,Prototyping And Rapid Modification,Captured-Equipment Reverse Engineering
+Innovation Pipeline Stage,Testing And Validation,Informal Front-Line Trials
+Innovation Pipeline Stage,Testing And Validation,Military Acceptance Certification
+Innovation Pipeline Stage,Testing And Validation,Live-Fire Proving Grounds
+Innovation Pipeline Stage,Testing And Validation,Electronic Warfare Range Testing
+Innovation Pipeline Stage,Procurement And Resourcing,State Defense Order Contracting
+Innovation Pipeline Stage,Procurement And Resourcing,Crowdfunded Direct Purchase
+Innovation Pipeline Stage,Procurement And Resourcing,Regional Government Grants
+Innovation Pipeline Stage,Procurement And Resourcing,Sanctions-Evasion Component Sourcing
+Innovation Pipeline Stage,Production Scaling,State Factory Mass Production
+Innovation Pipeline Stage,Production Scaling,Distributed Small-Workshop Assembly
+Innovation Pipeline Stage,Production Scaling,Modular Kit Standardization
+Innovation Pipeline Stage,Production Scaling,Component Supply Chain Expansion
+Innovation Pipeline Stage,Fielding And Distribution,Unit-Level Equipment Issue
+Innovation Pipeline Stage,Fielding And Distribution,Training And Pilot Certification
+Innovation Pipeline Stage,Fielding And Distribution,Logistics To Front-Line Depots
+Innovation Pipeline Stage,Fielding And Distribution,Cross-Unit Knowledge Transfer
+Innovation Pipeline Stage,Feedback And Iteration Loop,Combat Data Collection
+Innovation Pipeline Stage,Feedback And Iteration Loop,Rapid Design Revision Cycles
+Innovation Pipeline Stage,Feedback And Iteration Loop,Telegram And Chat After-Action Sharing
+Innovation Pipeline Stage,Feedback And Iteration Loop,Formal Lessons-Learned Reporting
+Innovation Mechanism And Enabler,Decentralized Procurement And Funding,Crowdfunding Platforms
+Innovation Mechanism And Enabler,Decentralized Procurement And Funding,Regional Patron Sponsorship
+Innovation Mechanism And Enabler,Decentralized Procurement And Funding,Direct Unit Purchasing Authority
+Innovation Mechanism And Enabler,Decentralized Procurement And Funding,Volunteer Logistics Networks
+Innovation Mechanism And Enabler,Informal Knowledge Networks,Telegram Channel Tactics-Sharing
+Innovation Mechanism And Enabler,Informal Knowledge Networks,Pilot Training Exchange Programs
+Innovation Mechanism And Enabler,Informal Knowledge Networks,Cross-Unit Technician Rotation
+Innovation Mechanism And Enabler,Informal Knowledge Networks,Open-Source Community Forums
+Innovation Mechanism And Enabler,Reverse Engineering And Adaptation,Captured NATO And Western Equipment Exploitation
+Innovation Mechanism And Enabler,Reverse Engineering And Adaptation,Commercial Drone Repurposing
+Innovation Mechanism And Enabler,Reverse Engineering And Adaptation,Civilian Electronics Component Reuse
+Innovation Mechanism And Enabler,Reverse Engineering And Adaptation,Foreign Firmware Modification
+Innovation Mechanism And Enabler,Centralized Specialized Units,Rubicon-Style Unmanned Systems Centers
+Innovation Mechanism And Enabler,Centralized Specialized Units,Dedicated Electronic Warfare Brigades
+Innovation Mechanism And Enabler,Centralized Specialized Units,Cross-Domain Integration Cells
+Innovation Mechanism And Enabler,Centralized Specialized Units,Rapid-Adoption Pilot Programs
+Innovation Mechanism And Enabler,Industrial Mobilization Measures,Defense Order Streamlining Decrees
+Innovation Mechanism And Enabler,Industrial Mobilization Measures,Sanctions-Evasion Supply Chains
+Innovation Mechanism And Enabler,Industrial Mobilization Measures,Dual-Use Manufacturing Conversion
+Innovation Mechanism And Enabler,Industrial Mobilization Measures,Component Stockpiling Programs
+Innovation Mechanism And Enabler,Data And AI-Enabled Targeting,Automated Target Recognition Software
+Innovation Mechanism And Enabler,Data And AI-Enabled Targeting,Drone Swarm Coordination Algorithms
+Innovation Mechanism And Enabler,Data And AI-Enabled Targeting,Signals-Intelligence Fusion Tools
+Innovation Mechanism And Enabler,Data And AI-Enabled Targeting,Machine-Vision Terminal Guidance
+Speed Dynamics,Acceleration Factors,Direct Front-To-Factory Feedback Channels
+Speed Dynamics,Acceleration Factors,Low-Cost Commercial Component Availability
+Speed Dynamics,Acceleration Factors,Decentralized Unit-Level Modification Authority
+Speed Dynamics,Acceleration Factors,Crowdfunded Bypass Of Formal Procurement
+Speed Dynamics,Bottleneck And Friction Factors,Formal Defense-Order Bureaucratic Delays
+Speed Dynamics,Bottleneck And Friction Factors,Military Acceptance Certification Backlogs
+Speed Dynamics,Bottleneck And Friction Factors,Inter-Service Rivalry Over Unmanned Systems Control
+Speed Dynamics,Bottleneck And Friction Factors,Corruption And Diverted Funding
+Speed Dynamics,Mixed Or Conditional Factors,Centralization That Standardizes But Slows Adaptation
+Speed Dynamics,Mixed Or Conditional Factors,Sanctions Raising Cost While Spurring Substitution
+Speed Dynamics,Mixed Or Conditional Factors,Specialized Units Concentrating Expertise But Limiting Access
+Speed Dynamics,Mixed Or Conditional Factors,Volunteer Network Reliance With Variable Reliability
+Speed Dynamics,Counter-Adaptation Lag,Delayed Response To Ukrainian Counter-UAS Tactics
+Speed Dynamics,Counter-Adaptation Lag,Frequency-Hopping Countermeasure Gaps
+Speed Dynamics,Counter-Adaptation Lag,Slow Doctrine Updates Following Battlefield Losses
+Speed Dynamics,Counter-Adaptation Lag,Persistent Single-Point-Of-Failure Component Shortages
+Technology Domain,Strike And Loitering Munition Drones,FPV Kamikaze Drones
+Technology Domain,Strike And Loitering Munition Drones,Long-Range Loitering Munitions
+Technology Domain,Strike And Loitering Munition Drones,Fiber-Optic Guided Drones
+Technology Domain,Strike And Loitering Munition Drones,Swarm-Capable Strike Systems
+Technology Domain,ISR And Reconnaissance Drones,Fixed-Wing Surveillance UAVs
+Technology Domain,ISR And Reconnaissance Drones,Quadcopter Spotting Drones
+Technology Domain,ISR And Reconnaissance Drones,Signals-Collection UAVs
+Technology Domain,ISR And Reconnaissance Drones,Target-Designation Relay Drones
+Technology Domain,Electronic Warfare Offensive And Jamming,GPS And GNSS Jamming Systems
+Technology Domain,Electronic Warfare Offensive And Jamming,Communications And Datalink Jammers
+Technology Domain,Electronic Warfare Offensive And Jamming,Counter-Drone Frequency Disruption
+Technology Domain,Electronic Warfare Offensive And Jamming,Decoy And Spoofing Emitters
+Technology Domain,Electronic Warfare Defensive And Protective,Vehicle-Mounted Counter-FPV Systems
+Technology Domain,Electronic Warfare Defensive And Protective,Convoy And Route Protection Jammers
+Technology Domain,Electronic Warfare Defensive And Protective,Position-Location Masking Equipment
+Technology Domain,Electronic Warfare Defensive And Protective,Anti-Drone Detection Sensors
+Technology Domain,Counter-UAS Kinetic Systems,Interceptor Drone Defenses
+Technology Domain,Counter-UAS Kinetic Systems,Point-Defense Anti-Drone Guns
+Technology Domain,Counter-UAS Kinetic Systems,Net And Capture Interceptor Drones
+Technology Domain,Counter-UAS Kinetic Systems,Layered Air-Defense Integration
+Technology Domain,Communications And Guidance Infrastructure,Fiber-Optic Control Links
+Technology Domain,Communications And Guidance Infrastructure,Encrypted Datalink Systems
+Technology Domain,Communications And Guidance Infrastructure,Satellite-Relay Backup Links
+Technology Domain,Communications And Guidance Infrastructure,Terminal Guidance Sensor Packages
+Unmanned Intelligence Gathering Context,Collection Mission Type,Tactical Reconnaissance And Spotting
+Unmanned Intelligence Gathering Context,Collection Mission Type,Persistent Area Surveillance
+Unmanned Intelligence Gathering Context,Collection Mission Type,Signals And Electronic Order-Of-Battle Collection
+Unmanned Intelligence Gathering Context,Collection Mission Type,Battle Damage Assessment And Post-Strike Imaging
+Unmanned Intelligence Gathering Context,Reconnaissance-Strike Integration,Target Designation For Artillery And Air Strikes
+Unmanned Intelligence Gathering Context,Reconnaissance-Strike Integration,Real-Time Sensor-To-Shooter Handoff
+Unmanned Intelligence Gathering Context,Reconnaissance-Strike Integration,Drone-Directed Fire Adjustment
+Unmanned Intelligence Gathering Context,Reconnaissance-Strike Integration,Targeting Of Enemy Drone Control And Communications Nodes
+Unmanned Intelligence Gathering Context,Intelligence Processing And Dissemination,Video And Telemetry Feed Distribution
+Unmanned Intelligence Gathering Context,Intelligence Processing And Dissemination,Geolocation And Imagery Analysis
+Unmanned Intelligence Gathering Context,Intelligence Processing And Dissemination,AI-Assisted Target Detection From Collected Imagery
+Unmanned Intelligence Gathering Context,Intelligence Processing And Dissemination,Cross-Unit Intelligence Sharing Networks
+Unmanned Intelligence Gathering Context,Counter-ISR And Concealment,Enemy Drone Detection And Warning
+Unmanned Intelligence Gathering Context,Counter-ISR And Concealment,Thermal And Visual Signature Masking
+Unmanned Intelligence Gathering Context,Counter-ISR And Concealment,Deception And Decoy Employment
+Unmanned Intelligence Gathering Context,Counter-ISR And Concealment,Denial Of Enemy Reconnaissance Drones
+Unmanned Intelligence Gathering Context,Intelligence Collection Constraints,Sensor Range And Endurance Limits
+Unmanned Intelligence Gathering Context,Intelligence Collection Constraints,Weather And Electronic Interference Degradation
+Unmanned Intelligence Gathering Context,Intelligence Collection Constraints,Data Link And Satellite Dependency Risks
+Unmanned Intelligence Gathering Context,Intelligence Collection Constraints,Analyst And Operator Capacity Shortfalls
+Organizational And Command Level,Tactical Unit Level,Company And Battalion Drone Teams
+Organizational And Command Level,Tactical Unit Level,Platoon-Level EW Detachments
+Organizational And Command Level,Tactical Unit Level,Individual Soldier-Technicians
+Organizational And Command Level,Tactical Unit Level,Local Repair And Assembly Points
+Organizational And Command Level,Operational Formation Level,Brigade Unmanned Systems Companies
+Organizational And Command Level,Operational Formation Level,Army-Level EW Battalions
+Organizational And Command Level,Operational Formation Level,Cross-Brigade Coordination Cells
+Organizational And Command Level,Operational Formation Level,Regional Logistics Hubs
+Organizational And Command Level,Strategic National Level,Ministry Of Defense Procurement Directorates
+Organizational And Command Level,Strategic National Level,National Industrial Mobilization Bodies
+Organizational And Command Level,Strategic National Level,Presidential And Security Council Directives
+Organizational And Command Level,Strategic National Level,National Training And Doctrine Centers
+Organizational And Command Level,International And Transnational Level,Foreign State Technology Transfer
+Organizational And Command Level,International And Transnational Level,Sanctions-Evasion Trade Networks
+Organizational And Command Level,International And Transnational Level,Cross-Border Component Supply Chains
+Organizational And Command Level,International And Transnational Level,Allied-State Joint Production Arrangements
+Temporal Phase,2023 Improvisation Phase,Ad Hoc Volunteer Drone Funding
+Temporal Phase,2023 Improvisation Phase,Early FPV Adoption From Ukrainian Example
+Temporal Phase,2023 Improvisation Phase,Initial Electronic Warfare Unit Reorganization
+Temporal Phase,2023 Improvisation Phase,Reactive Front-Line Workarounds
+Temporal Phase,2024 Consolidation Phase,Formation Of Centralized Unmanned Systems Commands
+Temporal Phase,2024 Consolidation Phase,Scaling Of Domestic FPV Production
+Temporal Phase,2024 Consolidation Phase,Standardization Of Training Programs
+Temporal Phase,2024 Consolidation Phase,Expansion Of Sanctions-Evasion Supply Chains
+Temporal Phase,2025 Institutionalization Phase,Formal Doctrine Integration Of Drones And EW
+Temporal Phase,2025 Institutionalization Phase,Dedicated Budget Lines And Procurement Reform
+Temporal Phase,2025 Institutionalization Phase,Maturing Fiber-Optic Counter-Jamming Drones
+Temporal Phase,2025 Institutionalization Phase,Established Feedback-To-Industry Pipelines
+Temporal Phase,2026 Maturation And Plateau Phase,Persistent Bottlenecks Despite Institutionalization
+Temporal Phase,2026 Maturation And Plateau Phase,Counter-Adaptation By Opposing Force
+Temporal Phase,2026 Maturation And Plateau Phase,Diminishing Marginal Returns On Scaling
+Temporal Phase,2026 Maturation And Plateau Phase,Emerging Next-Generation AI-Guided Systems
+Combatant Lessons Learned And Applied (Russia And Ukraine),Tactical Lessons Applied In Combat,Employment And Tactics Adjustments After Losses
+Combatant Lessons Learned And Applied (Russia And Ukraine),Tactical Lessons Applied In Combat,Equipment Protection And Survivability Fixes
+Combatant Lessons Learned And Applied (Russia And Ukraine),Tactical Lessons Applied In Combat,Crew Procedures And Drill Changes
+Combatant Lessons Learned And Applied (Russia And Ukraine),Tactical Lessons Applied In Combat,Counter-Drone Behavior And Signature Discipline
+Combatant Lessons Learned And Applied (Russia And Ukraine),Operational Lessons Applied In Formations,Reorganization Of Drone And EW Units Based On Combat Results
+Combatant Lessons Learned And Applied (Russia And Ukraine),Operational Lessons Applied In Formations,Integration Of Drones And EW Into Combined-Arms Planning
+Combatant Lessons Learned And Applied (Russia And Ukraine),Operational Lessons Applied In Formations,Reconnaissance-Strike Cycle Compression
+Combatant Lessons Learned And Applied (Russia And Ukraine),Operational Lessons Applied In Formations,Logistics And Route Protection Adaptation
+Combatant Lessons Learned And Applied (Russia And Ukraine),Strategic And Institutional Lessons Applied,Doctrine Revision From Battlefield Experience
+Combatant Lessons Learned And Applied (Russia And Ukraine),Strategic And Institutional Lessons Applied,Force Structure And Command Creation Driven By Combat Evidence
+Combatant Lessons Learned And Applied (Russia And Ukraine),Strategic And Institutional Lessons Applied,Procurement And Requirements Reform Driven By Frontline Feedback
+Combatant Lessons Learned And Applied (Russia And Ukraine),Strategic And Institutional Lessons Applied,Training System Redesign From Combat Experience
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Flow Across Levels,Bottom-Up Escalation Of Tactical Lessons
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Flow Across Levels,Top-Down Dissemination Of Doctrinal Updates
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Flow Across Levels,Lateral Peer Exchange Between Units
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Flow Across Levels,Foreign Or Allied Experience Adopted By Combatants
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Triggers And Evidence,Battlefield Losses And Failure Analysis
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Triggers And Evidence,Enemy Countermeasure Or Adaptation
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Triggers And Evidence,Captured Or Destroyed Equipment Examination
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Triggers And Evidence,Newly Appeared Threat Or Capability
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Application Status,Applied And Confirmed By Combat Results
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Application Status,Adopted But Not Yet Validated
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Application Status,Identified But Not Yet Applied
+Combatant Lessons Learned And Applied (Russia And Ukraine),Lesson Application Status,Reverted Or Failed Adaptation
+Lesson Holder And Vantage Point,Combatant Participant,Russian Armed Forces And Affiliated Units
+Lesson Holder And Vantage Point,Combatant Participant,Ukrainian Armed Forces And Affiliated Units
+Lesson Holder And Vantage Point,Combatant Participant,Mutual Adaptation Between Russian And Ukrainian Forces
+Lesson Holder And Vantage Point,Non-Participant Observer,NATO Member Militaries And Ministries
+Lesson Holder And Vantage Point,Non-Participant Observer,NATO And Allied Institutional Bodies
+Lesson Holder And Vantage Point,Non-Participant Observer,Non-NATO Foreign Observers
+Lesson Holder And Vantage Point,Non-Participant Observer,Independent Analysts And Industry
+NATO Observer Lessons Learned,Tactical And Employment Lessons,Decentralized Pilot Authority At The Unit Level
+NATO Observer Lessons Learned,Tactical And Employment Lessons,FPV Mass And Attrition Economics
+NATO Observer Lessons Learned,Tactical And Employment Lessons,Signature Discipline Against Pervasive ISR
+NATO Observer Lessons Learned,Tactical And Employment Lessons,Combined-Arms Integration Of Drones And Fires
+NATO Observer Lessons Learned,Technological And Capability Lessons,GNSS-Independent Navigation As A Baseline Requirement
+NATO Observer Lessons Learned,Technological And Capability Lessons,Fiber-Optic Control As A Jam-Resistant Fallback
+NATO Observer Lessons Learned,Technological And Capability Lessons,Layered Counter-UAS At Every Echelon
+NATO Observer Lessons Learned,Technological And Capability Lessons,Mass-Produced Low-Cost Systems Over Scarce High-End Platforms
+NATO Observer Lessons Learned,Industrial And Procurement Lessons,Rapid-Iteration Acquisition Pathways
+NATO Observer Lessons Learned,Industrial And Procurement Lessons,Surge Production And Warm Industrial Base Planning
+NATO Observer Lessons Learned,Industrial And Procurement Lessons,Component Supply Chain De-Risking
+NATO Observer Lessons Learned,Industrial And Procurement Lessons,Public-Private Co-Development Arrangements
+NATO Observer Lessons Learned,Doctrinal And Organizational Lessons,Dedicated Unmanned Systems Commands
+NATO Observer Lessons Learned,Doctrinal And Organizational Lessons,Electromagnetic Spectrum Management As A Core Discipline
+NATO Observer Lessons Learned,Doctrinal And Organizational Lessons,Drone And EW Integration Into Combined Arms Doctrine
+NATO Observer Lessons Learned,Doctrinal And Organizational Lessons,Training Pipelines Redesigned For Mass Pilot Throughput
+NATO Observer Lessons Learned,Strategic And Cautionary Lessons,Legal And Ethical Limits On Crowdfunded Lethal Aid
+NATO Observer Lessons Learned,Strategic And Cautionary Lessons,Overreliance Risk In Volunteer-Based Logistics
+NATO Observer Lessons Learned,Strategic And Cautionary Lessons,Alliance Interoperability And Standardization Costs
+NATO Observer Lessons Learned,Strategic And Cautionary Lessons,Escalation And Signaling Risks Of EW Employment
+NATO Observer Lessons Learned,Intelligence And ISR Lessons,Persistent Drone ISR As A Baseline Echelon Capability
+NATO Observer Lessons Learned,Intelligence And ISR Lessons,Sensor-To-Shooter Latency Reduction
+NATO Observer Lessons Learned,Intelligence And ISR Lessons,Survivable Reconnaissance Under Jamming And Counter-UAS
+NATO Observer Lessons Learned,Intelligence And ISR Lessons,Intelligence Fusion Across Echelons And Allies
+NATO Observer Lessons Learned,Observation And Analysis Methods,Open-Source And Footage Analysis
+NATO Observer Lessons Learned,Observation And Analysis Methods,Liaison And Observer Exchanges With Ukraine
+NATO Observer Lessons Learned,Observation And Analysis Methods,Wargaming And Exercise Experimentation
+NATO Observer Lessons Learned,Observation And Analysis Methods,Captured Equipment And Debris Assessment By Western Labs
+NATO Observer Lessons Learned,Transferability And Applicability Limits,Scenario Differences Between Ukraine And NATO Theaters
+NATO Observer Lessons Learned,Transferability And Applicability Limits,Risk Of Overfitting To The Current Conflict
+NATO Observer Lessons Learned,Transferability And Applicability Limits,Adversary Adaptation After Lessons Become Public
+NATO Observer Lessons Learned,Transferability And Applicability Limits,Industrial And Resource Scale Differences
+NATO Observer Lessons Learned,Adoption Into National Forces,Doctrine And Concept Updates In National Forces
+NATO Observer Lessons Learned,Adoption Into National Forces,Rapid Acquisition Pilots And Procurement Changes
+NATO Observer Lessons Learned,Adoption Into National Forces,Training And Exercise Redesign
+NATO Observer Lessons Learned,Adoption Into National Forces,Alliance-Level Standards And Capability Targets
+
+---------------------------------------------------------------------
+DECISION RULES
+---------------------------------------------------------------------
+1. Look at each HLTP separately. For each HLTP, choose AT MOST ONE 3rd Level TE.
+2. Only give a label when the text itself supports it. Do not infer from
+   background knowledge what the text does not say.
+3. If no element of an HLTP applies, give no label for that HLTP. Do not force a fit.
+4. If no HLTP applies at all, return an empty "labels" list and explain why
+   in "reasoning".
+5. Use the exact spelling and capitalization of the taxonomy, without the CSV
+   quotation marks. A label that is not in the taxonomy is an error.
+6. The text may be in Russian or another language. Classify the meaning, and
+   quote the text spans in the original language.
+
+---------------------------------------------------------------------
+JUSTIFICATION
+---------------------------------------------------------------------
+For every label, quote the exact words from the chunk that led to it
+("text_spans") and give a one-sentence explanation ("reasoning").
+Give a confidence between 0 and 100, where 100 means fully certain and 50 means
+a coin flip. Calibrate honestly: lower the score when the text is short,
+ambiguous or lacks context.
+
+---------------------------------------------------------------------
+OUTPUT FORMAT
+---------------------------------------------------------------------
+Return strict JSON only, no extra text, with exactly these fields:
+
+{
+  "chunk_id": "<the chunk_id given below>",
+  "labels": [
+    {
+      "HLTP": "<exactly as in the taxonomy>",
+      "2nd Level TE": "<exactly as in the taxonomy>",
+      "3rd Level TE": "<exactly as in the taxonomy>",
+      "text_spans": ["<exact quote from the chunk>"],
+      "reasoning": "<one sentence>",
+      "confidence": <0-100>
+    }
+  ],
+  "reasoning": "<one or two sentences on the chunk as a whole>"
+}
+
+---------------------------------------------------------------------
+GUIDANCE ON THE LESSONS-LEARNED AND INTELLIGENCE HLTPs
+---------------------------------------------------------------------
+- "Combatant Lessons Learned And Applied (Russia And Ukraine)": lessons that the
+  fighting parties (Russia, Ukraine) learned through participation in combat AND applied
+  in the frontline/combat environment or their own forces (tactics changed after losses,
+  design fixes from field experience, unit reorganizations, doctrine or procurement changes
+  driven by battlefield evidence). The 2nd level is the level of application (tactical,
+  operational, strategic/institutional), flow across levels, trigger, or application status.
+  These chunks are especially important to the research: look for them carefully, but
+  label only when the text itself supports a lesson that was drawn from combat experience.
+- "NATO Observer Lessons Learned": lessons NATO/Western actors draw by OBSERVING and
+  ANALYSING the war without participating. Use the topic rows for WHAT is learned; use
+  "Observation And Analysis Methods", "Transferability And Applicability Limits" and
+  "Adoption Into National Forces" for HOW it is obtained, how far it transfers, and whether it
+  is adopted by national forces or the alliance. Never use this HLTP for lessons the
+  belligerents themselves apply; never use the combatant HLTP for NATO observation.
+- "Lesson Holder And Vantage Point": who holds the lesson (Russian forces, Ukrainian
+  forces, mutual adaptation, or a non-participant observer). Label it whenever a lesson is
+  discussed and the holder is clear from the text.
+- "Unmanned Intelligence Gathering Context": use when unmanned systems are used for
+  intelligence, surveillance, reconnaissance, targeting support, BDA, or when counter-ISR
+  (concealment, detection of enemy drones) or ISR limits are discussed. Platforms still go
+  under Technology Domain.
+- Generic MoD loss tallies, politics, humanitarian aid or ceremonial text with no substantive
+  drone/EW/innovation/lessons content get no labels. Do not infer beyond the text.
+- Take care that long chunks may be truncated by the Read tool; read all of them.
+
